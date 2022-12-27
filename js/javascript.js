@@ -24,6 +24,20 @@ function dbg()
     }
 }
 
+async function requestToServer()
+{
+    // POST
+    let ret = await fetch("post_form.php", {method: 'POST', body: "parameter"});
+    // GET
+    let re2 = await fetch("post_form.php?parameter", {method: 'GET'});
+
+    
+    /*
+    $_GET["param"]
+    $_POST["param"]
+    */
+}
+
 function oneClicked()
 {
     dbg("1 is clicked");
