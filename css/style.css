@@ -12,6 +12,9 @@ body{
     border-style: groove;
     /* ให้มีความกว้างอย่างน้อยๆไม่ต่ำกว่า 250 pixels */
     min-width: 250px;
+    margin: auto;
+    
+    
 }
 
 /* ส่วนหัวข้อของหน้าเว็บ */
@@ -36,8 +39,8 @@ h1{
     width: 40vw;
     height: 10vh;
 
-    /* กว้างไม่ต่ำกว่า 200 pixels   */
-    min-width: 200px;
+    /* กว้างไม่ต่ำกว่า 420 pixels   */
+    min-width: 420px;
     
 }
 
@@ -47,16 +50,60 @@ h1{
 }
 
 #display{
-    text-align: left;
-    width: 100%;
+    text-align: right;
+    width: 420px;
     height: 100%;
-    font-size: calc(12px + 1vmin);
+    font-size: 40px;
+    border-radius: 7px;
+    background-color: rgb(217, 230, 234);
+    border-color :rgb(101, 130, 138);
+   
 }
 
 .bt{
-
+    width: 100px;
+    height: 100px;
+    background-color: rgb(205, 231, 239);
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 2px;
+    border :rgb(225, 234, 237);
+    
 }
-
+#zero{
+    
+}
+#clear{
+    background-color: rgb(225, 234, 237);
+}
+#parenthesis-open{
+    background-color: rgb(225, 234, 237);
+}
+#parenthesis-close{
+    background-color: rgb(225, 234, 237);
+}
+#del{
+    background-color: rgb(225, 234, 237);
+}
+#minus{
+    background-color: rgb(225, 234, 237);
+}
+#plus{
+    background-color: rgb(225, 234, 237);
+}
+#multiply{
+    background-color: rgb(225, 234, 237);
+}
+#divide{
+    background-color: rgb(225, 234, 237);
+}
+#dot{
+    background-color: rgb(225, 234, 237);
+}
+#equal{
+    background-color: rgb(57, 169, 206);
+}
 .bt-num{
 
 }
